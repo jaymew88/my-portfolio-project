@@ -1,0 +1,142 @@
+/***** MAIN STYLES *****/
+body {
+  color: #19679e;
+  font-family: 'Roboto', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+  width: 1400px;
+}
+.half-width {
+  width: 700px;
+  float: left;
+}
+.third-width {
+  width: 466px;
+  float: left;
+}
+
+header {
+  background-size: cover;
+  background: url('../img/hero-image.png');
+  width: 100%;
+  height: 800px;
+}
+
+header h1 {
+  font-family: 'Lora', serif;
+  font-size: 3em;
+  padding: 300px 200px 15px 200px;
+  text-align: center;
+}
+
+header h2 {
+  color: #f8e7c9;
+  font-family: 'Lora', serif;
+  font-size: 2.5em;
+  padding: 0 200px 0 200px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+h3 {
+  font-family: Veranda;
+  font-size: 2.5em;
+  margin: 0 auto;
+  padding-bottom: 74px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+/***** PORTFOLIO *****/
+.portfolio {
+  padding: 0 0 20px 0;
+}
+.portfolio .full-width {
+  clear: both;
+  height: 400px;
+  padding: 0 100px 20px 100px;
+}
+.portfolio img {
+  border: 1px solid #a97b6b;
+  width: 550px;
+  float: left;
+}
+
+.portfolio h4, h5, p {
+  clear: left;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 50px 20px 100px;
+  width: 500px;
+}
+.portfolio h4 {
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 5px;
+}
+.portfolio h5 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+/***** ABOUT ME *****/
+.about-me {
+  color: #f8e7c9;
+  clear: both;
+  background-color: #19679e;
+  height: 650px;
+  margin: 0 auto;
+
+}
+.about-me img {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 350px;
+}
+.about-me p {
+  font-size: 1.25em;
+  padding: 50px 0 0 0;
+}
+
+/***** LET"S CONNECT *****/
+.contact {
+  color: #fff;
+  background-color: #a97b6b;
+  height: 410px;
+  margin: 0 auto;
+}
+.contact img {
+  display: inline-block;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 50px;
+}
+.contact h4 {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 30px 0 20px 0;
+  text-align: center;
+}
+.contact p {
+  font-size: 1.25em;
+  text-align: center;
+  padding: 0 0 5px 0;
+  width: 466px;
+}
+
+/***** FOOTER *****/
+footer {
+  background-color: #a97b6b;
+  text-align: center;
+}
+footer p {
+  font-size: 1.125em;
+  padding: 0 0 20px 0;
+}
